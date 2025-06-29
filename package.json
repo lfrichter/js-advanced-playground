@@ -1,0 +1,13 @@
+{
+  "name": "js-moderno-playground",
+  "version": "1.0.0",
+  "description": "Um playground para exemplos de JavaScript moderno (ES6+)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["es6", "proxy", "generator", "symbol", "javascript"],
+  "author": "",
+  "license": "ISC"
+}
