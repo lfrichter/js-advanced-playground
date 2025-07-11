@@ -22,6 +22,11 @@ Um playground educacional para explorar e demonstrar recursos fundamentais e ava
   - Filtragem de elementos com base em condições (`filter.js`, `filter2.js`)
 - **Array.reduce**:
   - Agregação de dados e redução de um array a um único valor (`reduce_basic.js`, `reduce2_basic.js`, `reduce3_basic.js`)
+- **Recursos do ES6+** (`esNext.js`, `esNext2.js`):
+  - `let` e `const` para escopo de bloco
+  - Template Strings para interpolação de strings
+  - Destructuring de arrays e objetos
+  - Arrow Functions e o comportamento do `this` léxico
 
 **Casos de Uso**: Manipulação de coleções, programação assíncrona básica, transformações de dados.
 
@@ -112,13 +117,16 @@ No arquivo `index.js`, você pode comentar/descomentar as linhas para executar e
 // runFilter2Examples();
 // runReducerExamples();
 // runReducer2Examples();
-runReducer3Examples();
+// runReducer3Examples();
+// runEsNextExamples();
+runEsNext2Examples();
 
 
 // --------------- Advanced JavaScript Examples ---------------
 // runSymbolExamples();
 // runGeneratorExamples();
 // runProxyExamples();
+// runProxyExamples2();
 // runReduceExamples();
 // runMapExamples();
 // runWeakMapExamples();
@@ -132,12 +140,27 @@ JsAdvancedPlayground/
 ├── package.json           # Configurações do projeto
 ├── package-lock.json      # Lock de dependências
 ├── README.md             # Este arquivo
-└── src/
+└── src/                  # Diretório com os exemplos
+    ├── anonymousFunction.js # Exemplos de Funções Anônimas
+    ├── builderFunction.js   # Exemplo de Função Builder
+    ├── callback1.js         # Exemplos de Callback
+    ├── callback2.js         # Exemplos de Callback com filter
+    ├── callback3.js         # Exemplo de Callback no Browser (evento de clique)
+    ├── esNext.js            # Exemplos de recursos do ESNext (let, const, destructuring)
+    ├── esNext2.js           # Exemplos de recursos do ESNext (arrow functions)
+    ├── filter.js            # Exemplos de Array.filter
+    ├── filter2.js           # Implementação customizada de Array.filter
     ├── generator.js      # Exemplos de Generator Functions
     ├── map.js           # Exemplos de Map
+    ├── mapBasic.js          # Exemplos de Array.map
+    ├── mapBasic2.js         # Exemplos de Array.map
+    ├── mapBasic3.js         # Implementação customizada de Array.map
     ├── proxy.js         # Exemplos básicos de Proxy
     ├── proxy2.js        # Exemplos avançados de Proxy
     ├── reduce.js        # Exemplos avançados de Array.reduce
+    ├── reduce_basic.js      # Exemplos de Array.reduce
+    ├── reduce2_basic.js     # Exemplos de Array.reduce
+    ├── reduce3_basic.js     # Implementação customizada de Array.reduce
     ├── symbol.js        # Exemplos de Symbol
     └── weakmap.js       # Exemplos de WeakMap
 ```
