@@ -7,9 +7,27 @@
 
 ## 📖 Descrição
 
-Um playground educacional para explorar e demonstrar recursos avançados do JavaScript moderno (ES6+). Este projeto contém exemplos práticos e bem comentados de funcionalidades poderosas que todo desenvolvedor JavaScript deveria conhecer.
+Um playground educacional para explorar e demonstrar recursos fundamentais e avançados do JavaScript moderno (ES6+). Este projeto contém exemplos práticos e bem comentados de funcionalidades poderosas que todo desenvolvedor JavaScript deveria conhecer.
 
 ## ✨ Recursos Demonstrados
+
+### 🚀 **Fundamentos de JavaScript Moderno**
+- **Funções**:
+  - Funções Anônimas (`anonymousFunction.js`)
+  - Padrão Callback (`callback1.js`, `callback2.js`, `callback3.js`)
+  - Padrão Builder (`builderFunction.js`)
+- **Array.map**:
+  - Transformação de dados e criação de novos arrays (`mapBasic.js`, `mapBasic2.js`, `mapBasic3.js`)
+- **Array.filter**:
+  - Filtragem de elementos com base em condições (`filter.js`, `filter2.js`)
+- **Array.reduce**:
+  - Agregação de dados e redução de um array a um único valor (`reduce_basic.js`, `reduce2_basic.js`, `reduce3_basic.js`)
+
+**Casos de Uso**: Manipulação de coleções, programação assíncrona básica, transformações de dados.
+
+---
+
+### 🔧 **Tópicos Avançados de JavaScript**
 
 ### 🔧 **Proxy** (`proxy.js` & `proxy2.js`)
 - **Interceptação de Operações**: Captura e personaliza operações realizadas em objetos (get, set, etc.)
@@ -81,14 +99,29 @@ npm start
 No arquivo `index.js`, você pode comentar/descomentar as linhas para executar exemplos específicos:
 
 ```javascript
-// Descomente a linha do exemplo que deseja executar
-runSymbolExamples();     // Exemplos de Symbol
-runGeneratorExamples();  // Exemplos de Generator
-runProxyExamples();      // Exemplos de Proxy (básico)
-runProxyExamples2();     // Exemplos de Proxy (avançado)
-runReduceExamples();     // Exemplos de Array.reduce
-runMapExamples();        // Exemplos de Map
-runWeakMapExamples();    // Exemplos de WeakMap
+// --------------- Fundamentals JavaScript Examples ---------------
+// runAnonymousFunctionExamples();
+// runCallbackExamples();
+// runCallback2Examples();
+// runCallback3Examples();
+// runBuilderFunctionExamples();
+// runMap1Examples();
+// runMap2Examples();
+// runMap3Examples();
+// runFilterExamples();
+// runFilter2Examples();
+// runReducerExamples();
+// runReducer2Examples();
+runReducer3Examples();
+
+
+// --------------- Advanced JavaScript Examples ---------------
+// runSymbolExamples();
+// runGeneratorExamples();
+// runProxyExamples();
+// runReduceExamples();
+// runMapExamples();
+// runWeakMapExamples();
 ```
 
 ## 📁 Estrutura do Projeto
